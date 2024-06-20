@@ -34264,14 +34264,6 @@ sh_binary {
 }
 
 sh_binary {
-    name: "init.kernel.post_boot",
-    owner: "nothing",
-    src: "proprietary/vendor/bin/init.kernel.post_boot.sh",
-    filename: "init.kernel.post_boot.sh",
-    soc_specific: true,
-}
-
-sh_binary {
     name: "init.qcom.class_core",
     owner: "nothing",
     src: "proprietary/vendor/bin/init.qcom.class_core.sh",
