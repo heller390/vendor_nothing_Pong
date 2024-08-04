@@ -6,6 +6,7 @@ LOCAL_PATH := $(call my-dir)
 
 ifeq ($(TARGET_DEVICE),Pong)
 
+<<<<<<< HEAD
 $(call add-radio-file-sha1-checked,radio/abl.img,720afd3a60a6fe33de6ba880357f950e1abcbb25)
 $(call add-radio-file-sha1-checked,radio/aop.img,6125d53c65e487239a4962b9d60bcf6cd3fbf4e0)
 $(call add-radio-file-sha1-checked,radio/aop_config.img,60d13d75d72eec5970941e3ce7feb8ff344bacb5)
@@ -30,4 +31,6 @@ $(call add-radio-file-sha1-checked,radio/xbl.img,b2ceecdfda002b62a44b36888fbb696
 $(call add-radio-file-sha1-checked,radio/xbl_config.img,b7e5b5c18774e2406bd42eba6ae70428d8efce05)
 $(call add-radio-file-sha1-checked,radio/xbl_ramdump.img,c2907c2f332b2ca821bdea0d2b084a774aa822f6)
 
+=======
+>>>>>>> fa94221 (Pong: Drop prebuilt firmware)
 endif
