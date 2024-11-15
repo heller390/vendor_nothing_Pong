@@ -133,7 +133,6 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/Pong/proprietary/vendor/etc/init/loc-launcher.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/loc-launcher.rc \
     vendor/nothing/Pong/proprietary/vendor/etc/init/netmgrd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/netmgrd.rc \
     vendor/nothing/Pong/proprietary/vendor/etc/init/port-bridge.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/port-bridge.rc \
-    vendor/nothing/Pong/proprietary/vendor/etc/init/poweropt-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/poweropt-service.rc \
     vendor/nothing/Pong/proprietary/vendor/etc/init/qconfig.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qconfig.rc \
     vendor/nothing/Pong/proprietary/vendor/etc/init/qcrilNrd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qcrilNrd.rc \
     vendor/nothing/Pong/proprietary/vendor/etc/init/qdcmss.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qdcmss.rc \
@@ -155,19 +154,15 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/Pong/proprietary/vendor/etc/init/vendor.qti.hardware.dsp@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.dsp@1.0-service.rc \
     vendor/nothing/Pong/proprietary/vendor/etc/init/vendor.qti.hardware.eid@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.eid@1.0-service.rc \
     vendor/nothing/Pong/proprietary/vendor/etc/init/vendor.qti.hardware.factory@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.factory@1.0-service.rc \
-    vendor/nothing/Pong/proprietary/vendor/etc/init/vendor.qti.hardware.iop@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.iop@2.0-service.rc \
     vendor/nothing/Pong/proprietary/vendor/etc/init/vendor.qti.hardware.limits-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.limits-service.rc \
-    vendor/nothing/Pong/proprietary/vendor/etc/init/vendor.qti.hardware.perf-hal-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.perf-hal-service.rc \
     vendor/nothing/Pong/proprietary/vendor/etc/init/vendor.qti.hardware.qseecom@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.qseecom@1.0-service.rc \
     vendor/nothing/Pong/proprietary/vendor/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc \
     vendor/nothing/Pong/proprietary/vendor/etc/init/vendor.qti.hardware.sensorscalibrate@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.sensorscalibrate@1.0-service.rc \
-    vendor/nothing/Pong/proprietary/vendor/etc/init/vendor.qti.hardware.servicetracker@1.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.servicetracker@1.2-service.rc \
     vendor/nothing/Pong/proprietary/vendor/etc/init/vendor.qti.hardware.soter@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.soter@1.0-service.rc \
     vendor/nothing/Pong/proprietary/vendor/etc/init/vendor.qti.hardware.trustedui@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.trustedui@1.0-service-qti.rc \
     vendor/nothing/Pong/proprietary/vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc \
     vendor/nothing/Pong/proprietary/vendor/etc/init/vendor.qti.media.c2@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.media.c2@1.0-service.rc \
     vendor/nothing/Pong/proprietary/vendor/etc/init/vendor.qti.media.c2audio@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.media.c2audio@1.0-service.rc \
-    vendor/nothing/Pong/proprietary/vendor/etc/init/vendor.qti.qspmhal@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.qspmhal@1.0-service.rc \
     vendor/nothing/Pong/proprietary/vendor/etc/init/vendor.qti.rmt_storage.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.rmt_storage.rc \
     vendor/nothing/Pong/proprietary/vendor/etc/init/vendor.qti.tftp.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.tftp.rc \
     vendor/nothing/Pong/proprietary/vendor/etc/init/vendor.sensors.qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sensors.qti.rc \
@@ -177,15 +172,6 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/Pong/proprietary/vendor/etc/izat.conf:$(TARGET_COPY_OUT_VENDOR)/etc/izat.conf \
     vendor/nothing/Pong/proprietary/vendor/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
     vendor/nothing/Pong/proprietary/vendor/etc/libnfc-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp.conf \
-    vendor/nothing/Pong/proprietary/vendor/etc/lm/AdaptLaunchFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/lm/AdaptLaunchFeature.xml \
-    vendor/nothing/Pong/proprietary/vendor/etc/lm/AppClassifierFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/lm/AppClassifierFeature.xml \
-    vendor/nothing/Pong/proprietary/vendor/etc/lm/LightningLaunchesFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/lm/LightningLaunchesFeature.xml \
-    vendor/nothing/Pong/proprietary/vendor/etc/lm/ProCompFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/lm/ProCompFeature.xml \
-    vendor/nothing/Pong/proprietary/vendor/etc/lm/QAPE.xml:$(TARGET_COPY_OUT_VENDOR)/etc/lm/QAPE.xml \
-    vendor/nothing/Pong/proprietary/vendor/etc/lm/QGPE.xml:$(TARGET_COPY_OUT_VENDOR)/etc/lm/QGPE.xml \
-    vendor/nothing/Pong/proprietary/vendor/etc/lm/QGPEActionMap.xml:$(TARGET_COPY_OUT_VENDOR)/etc/lm/QGPEActionMap.xml \
-    vendor/nothing/Pong/proprietary/vendor/etc/lm/SilkyScrollsFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/lm/SilkyScrollsFeature.xml \
-    vendor/nothing/Pong/proprietary/vendor/etc/lm/sPLHFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/lm/sPLHFeature.xml \
     vendor/nothing/Pong/proprietary/vendor/etc/lowi.conf:$(TARGET_COPY_OUT_VENDOR)/etc/lowi.conf \
     vendor/nothing/Pong/proprietary/vendor/etc/lvacfs_params/1mic/LVACFS_Calibration360.dat:$(TARGET_COPY_OUT_VENDOR)/etc/lvacfs_params/1mic/LVACFS_Calibration360.dat \
     vendor/nothing/Pong/proprietary/vendor/etc/lvacfs_params/1mic/LVACFS_Configuration.txt:$(TARGET_COPY_OUT_VENDOR)/etc/lvacfs_params/1mic/LVACFS_Configuration.txt \
@@ -239,24 +225,9 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/Pong/proprietary/vendor/etc/models/acd/event.eai:$(TARGET_COPY_OUT_VENDOR)/etc/models/acd/event.eai \
     vendor/nothing/Pong/proprietary/vendor/etc/models/acd/music.eai:$(TARGET_COPY_OUT_VENDOR)/etc/models/acd/music.eai \
     vendor/nothing/Pong/proprietary/vendor/etc/models/acd/speech.eai:$(TARGET_COPY_OUT_VENDOR)/etc/models/acd/speech.eai \
-    vendor/nothing/Pong/proprietary/vendor/etc/perf/avcsysnodesconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/avcsysnodesconfigs.xml \
-    vendor/nothing/Pong/proprietary/vendor/etc/perf/commonresourceconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/commonresourceconfigs.xml \
-    vendor/nothing/Pong/proprietary/vendor/etc/perf/commonsysnodesconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/commonsysnodesconfigs.xml \
-    vendor/nothing/Pong/proprietary/vendor/etc/perf/perfboostsconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perfboostsconfig.xml \
-    vendor/nothing/Pong/proprietary/vendor/etc/perf/perfconfigstore.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perfconfigstore.xml \
-    vendor/nothing/Pong/proprietary/vendor/etc/perf/targetconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/targetconfig.xml \
-    vendor/nothing/Pong/proprietary/vendor/etc/perf/targetresourceconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/targetresourceconfigs.xml \
-    vendor/nothing/Pong/proprietary/vendor/etc/perf/targetsysnodesconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/targetsysnodesconfigs.xml \
-    vendor/nothing/Pong/proprietary/vendor/etc/perf/testcommonresourceconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/testcommonresourceconfigs.xml \
-    vendor/nothing/Pong/proprietary/vendor/etc/perf/testtargetresourceconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/testtargetresourceconfigs.xml \
     vendor/nothing/Pong/proprietary/vendor/etc/permissions/vendor-qti-hardware-sensorscalibrate.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/vendor-qti-hardware-sensorscalibrate.xml \
     vendor/nothing/Pong/proprietary/vendor/etc/permissions/vendor.qti.hardware.factory.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/vendor.qti.hardware.factory.xml \
     vendor/nothing/Pong/proprietary/vendor/etc/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt \
-    vendor/nothing/Pong/proprietary/vendor/etc/pwr/PSMPowerOptFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/pwr/PSMPowerOptFeature.xml \
-    vendor/nothing/Pong/proprietary/vendor/etc/pwr/PowerFeatureConfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/pwr/PowerFeatureConfig.xml \
-    vendor/nothing/Pong/proprietary/vendor/etc/pwr/StandbyFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/pwr/StandbyFeature.xml \
-    vendor/nothing/Pong/proprietary/vendor/etc/pwr/VendorScenarioPowerOptFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/pwr/VendorScenarioPowerOptFeature.xml \
-    vendor/nothing/Pong/proprietary/vendor/etc/pwr/VideoPowerOptFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/pwr/VideoPowerOptFeature.xml \
     vendor/nothing/Pong/proprietary/vendor/etc/qcril_database/qcrilNr.db:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/qcrilNr.db \
     vendor/nothing/Pong/proprietary/vendor/etc/qcril_database/upgrade/config/10.0_config.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/config/10.0_config.sql \
     vendor/nothing/Pong/proprietary/vendor/etc/qcril_database/upgrade/config/11.0_config.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/config/11.0_config.sql \
@@ -332,10 +303,8 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/Pong/proprietary/vendor/etc/seccomp_policy/gnss@2.0-xtwifi-client.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/gnss@2.0-xtwifi-client.policy \
     vendor/nothing/Pong/proprietary/vendor/etc/seccomp_policy/imsrtp.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/imsrtp.policy \
     vendor/nothing/Pong/proprietary/vendor/etc/seccomp_policy/modemManager.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/modemManager.policy \
-    vendor/nothing/Pong/proprietary/vendor/etc/seccomp_policy/qapeservice.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qapeservice.policy \
     vendor/nothing/Pong/proprietary/vendor/etc/seccomp_policy/qcrilnr@2.0.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qcrilnr@2.0.policy \
     vendor/nothing/Pong/proprietary/vendor/etc/seccomp_policy/qesdk.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qesdk.policy \
-    vendor/nothing/Pong/proprietary/vendor/etc/seccomp_policy/qspm.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qspm.policy \
     vendor/nothing/Pong/proprietary/vendor/etc/seccomp_policy/qti-systemd.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qti-systemd.policy \
     vendor/nothing/Pong/proprietary/vendor/etc/seccomp_policy/qvr@2.0.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qvr@2.0.policy \
     vendor/nothing/Pong/proprietary/vendor/etc/seccomp_policy/sensors-qesdk.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/sensors-qesdk.policy \
@@ -812,7 +781,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.qseecom@1.0-impl \
     vendor.qti.hardware.qteeconnector@1.0-impl \
     vendor.qti.hardware.sensorscalibrate@1.0-impl \
-    vendor.qti.hardware.servicetracker@1.2-impl \
     vendor.qti.hardware.soter@1.0-impl \
     vendor.qti.hardware.wifidisplaysession@1.0-impl \
     vulkan.adreno \
@@ -858,7 +826,6 @@ PRODUCT_PACKAGES += \
     lib_bt_ble \
     lib_bt_bundle \
     lib_lvacfs \
-    libadaptlaunch \
     libadm \
     libadreno_app_profiles \
     libadreno_utils \
@@ -868,8 +835,6 @@ PRODUCT_PACKAGES += \
     libaidenoiser \
     libaidenoiserv2 \
     libalCFR \
-    libapengine \
-    libappclassifier \
     libar-acdb \
     libar-gpr \
     libar-gsl \
@@ -981,7 +946,6 @@ PRODUCT_PACKAGES += \
     libfastcvdsp_stub \
     libfastcvopt \
     libgame_enhance \
-    libgamepoweroptfeature \
     libgarden \
     libgarden_haltests_e2e \
     libgdtap \
@@ -1015,14 +979,11 @@ PRODUCT_PACKAGES += \
     libkeymasterprovision \
     libkeymasterutils \
     liblbs_core \
-    liblearningmodule \
-    liblightninglaunches \
     liblistensoundmodel2vendor \
     libllvm-glnext \
     libllvm-qcom \
     libllvm-qgl \
     liblmthermallistner \
-    liblmutils-ns \
     libloadalgo_stub \
     libloc_api_v02 \
     libloc_api_wds \
@@ -1051,10 +1012,7 @@ PRODUCT_PACKAGES += \
     libmdmdetect \
     libmdmimgload \
     libmdsprpc \
-    libmemperfd \
     libmemutils \
-    libmeters-ns \
-    libmeters \
     libmfGhostDetection \
     libmfec \
     libminkdescriptor \
@@ -1100,21 +1058,11 @@ PRODUCT_PACKAGES += \
     libops \
     libos \
     libpal_net_if \
-    libpasrutils \
     libpdmapper \
     libpdnotifier \
-    libperfconfig \
-    libperfgluelayer \
-    libperfioctl \
     libperipheral_client \
     libpn560_fw \
     libportrait_repair_ppl3_ocl \
-    libpowercallback \
-    libpowercore \
-    libprekill \
-    libprocomp \
-    libpsmoptfeature \
-    libqapesdk \
     libqc2audio_base \
     libqc2audio_basecodec \
     libqc2audio_core \
@@ -1187,12 +1135,6 @@ PRODUCT_PACKAGES += \
     libqseed3 \
     libqshcamera \
     libqsocket \
-    libqti-iopd-client \
-    libqti-iopd \
-    libqti-perfd-client \
-    libqti-perfd \
-    libqti-util \
-    libqti-utils \
     libqtigefar \
     libqtikeymaster4 \
     libqtikeymint \
@@ -1206,7 +1148,6 @@ PRODUCT_PACKAGES += \
     libqwes \
     librcc \
     librcmask \
-    libreffeature \
     libremosaic_wrapper \
     libremosaiclib \
     libril-db \
@@ -1234,8 +1175,6 @@ PRODUCT_PACKAGES += \
     libshsc \
     libshsusr_verinfo \
     libsi \
-    libsilkyscrolls \
-    libskewknob \
     libslimclient \
     libsmemlog \
     libsnapdragoncolor-manager \
@@ -1252,11 +1191,9 @@ PRODUCT_PACKAGES += \
     libspcom \
     libspectre \
     libspl \
-    libsplh \
     libssc \
     libssc_default_listener \
     libssd \
-    libstandbyfeature \
     libsubsystem_control \
     libsuperresolution_raw.arcsoft \
     libswregistrationalgo \
@@ -1276,9 +1213,7 @@ PRODUCT_PACKAGES += \
     libtzdrmgenprov \
     libubifocus \
     libvendor.goodix.hardware.biometrics.fingerprint@2.1 \
-    libvendorscenariopoweroptfeature \
     libvideoml \
-    libvideooptfeature \
     libvideotxr \
     libvideoutils \
     libvmmem \
@@ -1394,12 +1329,9 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.factory@1.0 \
     vendor.qti.hardware.factory@1.1 \
     vendor.qti.hardware.fm@1.0 \
-    vendor.qti.hardware.iop@1.0 \
-    vendor.qti.hardware.iop@2.0 \
     vendor.qti.hardware.limits@1.0 \
     vendor.qti.hardware.limits@1.1 \
     vendor.qti.hardware.mwqemadapter@1.0 \
-    vendor.qti.hardware.power.powermodule@1.0 \
     vendor.qti.hardware.qccsyshal@1.0_vendor \
     vendor.qti.hardware.qccsyshal@1.1_vendor \
     vendor.qti.hardware.qccvndhal@1.0-halimpl \
@@ -1480,15 +1412,10 @@ PRODUCT_PACKAGES += \
     vendor.qti.imsrtpservice@3.0_vendor \
     vendor.qti.latency@2.0 \
     vendor.qti.latency@2.1 \
-    vendor.qti.memory.pasrmanager@1.0 \
-    vendor.qti.memory.pasrmanager@1.1 \
-    vendor.qti.power.pasrmanager@1.0 \
     vendor.qti.qesdhal@1.0 \
     vendor.qti.qesdhal@1.1-impl \
     vendor.qti.qesdhal@1.1 \
     vendor.qti.qesdsys-V1-ndk_platform \
-    vendor.qti.qspmhal@1.0-impl \
-    vendor.qti.qspmhal@1.0 \
     bm2n00 \
     bm2n01 \
     bm2n02 \
@@ -1678,12 +1605,9 @@ PRODUCT_PACKAGES += \
     vendor.qti.diag.hal.service.xml \
     vendor.qti.gnss-service.xml \
     vendor.qti.hardware.limits-service.xml \
-    vendor.qti.hardware.perf.xml \
-    vendor.qti.hardware.power.powermodule.xml \
     vendor.qti.hardware.qconfig@1.0-service.xml \
     vendor.qti.hardware.radio.ims.xml \
     vendor.qti.hardware.radio.qtiradioconfig.xml \
-    vendor.qti.hardware.servicetracker@1.2-service.xml \
     vendor.qti.hardware.vpp@2.0-service.xml \
     vendor.qti.qccsyshal_aidl-service.xml \
     ATFWD-daemon \
@@ -1715,13 +1639,10 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.capabilityconfigstore@1.0-service \
     vendor.qti.hardware.eid@1.0-service \
     vendor.qti.hardware.factory@1.0-service \
-    vendor.qti.hardware.iop@2.0-service \
     vendor.qti.hardware.limits@1.1-service \
-    vendor.qti.hardware.perf-hal-service \
     vendor.qti.hardware.qseecom@1.0-service \
     vendor.qti.hardware.qteeconnector@1.0-service \
     vendor.qti.hardware.sensorscalibrate@1.0-service \
-    vendor.qti.hardware.servicetracker@1.2-service \
     vendor.qti.hardware.soter@1.0-service \
     vendor.qti.hardware.trustedui@1.0-service-qti \
     vendor.qti.hardware.tui_comm@1.0-service-qti \
@@ -1729,7 +1650,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.media.c2audio@1.0-service \
     ims_rtp_daemon \
     imsdaemon \
-    init.kernel.post_boot-cape \
     init.qcom.class_core \
     init.qcom.post_boot \
     init.qcom.sensors \
@@ -1746,14 +1666,12 @@ PRODUCT_PACKAGES += \
     mdm_helper_proxy \
     mlid \
     mmid \
-    msm_irqbalance \
     netmgrd \
     pd-mapper \
     pm-proxy \
     pm-service \
     port-bridge \
     power_off_alarm \
-    poweropt-service \
     ppd \
     qcc-trd \
     qdcmss \
@@ -1783,7 +1701,6 @@ PRODUCT_PACKAGES += \
     time_daemon \
     trusteduilistener \
     vendor.dpmd \
-    vendor.qti.qspmhal@1.0-service \
     vendor_modprobe \
     vppservice \
     wfdhdcphalservice \
