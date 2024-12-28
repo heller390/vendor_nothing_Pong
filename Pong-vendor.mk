@@ -1410,6 +1410,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.ims.rcsuce@1.2 \
     vendor.qti.imsrtpservice@3.0-service-Impl \
     vendor.qti.imsrtpservice@3.0_vendor \
+    vendor.qti.hardware.pal@1.0-impl \
     vendor.qti.latency@2.0 \
     vendor.qti.latency@2.1 \
     vendor.qti.qesdhal@1.0 \
